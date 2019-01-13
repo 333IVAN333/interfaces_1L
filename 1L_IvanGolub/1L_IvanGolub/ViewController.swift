@@ -68,9 +68,35 @@ class ViewController: UIViewController {
         if login == "admin" && password == "123456" {
             print("успешная авторизация")
         } else {
-            print("неуспешная авторизация")
+            
+            let alter = UIAlertController(title: "Ошибка", message: "Введены неверные данные пользователя", preferredStyle: .alert)
+            let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alter.addAction(action)
+            
+            present(alter, animated: true, completion: nil)
         }
     }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        let login = loginInput.text!
+        let password = passwordInput.text!
+        
+        if login == "" && password == "" {
+            return true
+        } else {
+            // Создаем контроллер
+            let alter = UIAlertController(title: "Ошибка", message: "Введены неверные данные пользователя", preferredStyle: .alert)
+            // Создаем кнопку для UIAlertController
+            let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            // Добавляем кнопку на UIAlertController
+            alter.addAction(action)
+            // Показываем UIAlertController
+            present(alter, animated: true, completion: nil)
+            
+            return false
+        }
+    }
+
 
 }
 

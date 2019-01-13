@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331F848521EB72170081E022 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331F848421EB72170081E022 /* Group.swift */; };
+		331F848721EB88840081E022 /* GroupTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331F848621EB88840081E022 /* GroupTableViewCell2.swift */; };
+		332738F021D51E27005DAB06 /* SingleFrendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332738EF21D51E27005DAB06 /* SingleFrendCollectionViewCell.swift */; };
+		332738F221D51E92005DAB06 /* SingleFrendCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332738F121D51E92005DAB06 /* SingleFrendCollectionViewController.swift */; };
+		332738F421D533AF005DAB06 /* SingleFrendViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332738F321D533AF005DAB06 /* SingleFrendViewLayout.swift */; };
+		332738F821D58C07005DAB06 /* MyGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332738F721D58C07005DAB06 /* MyGroupsTableViewController.swift */; };
+		332738FA21D58CB1005DAB06 /* GroupsAllTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332738F921D58CB1005DAB06 /* GroupsAllTableViewController.swift */; };
+		332738FC21D58D3D005DAB06 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332738FB21D58D3D005DAB06 /* GroupTableViewCell.swift */; };
 		3378438621CA6DB8006865F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3378438521CA6DB8006865F7 /* AppDelegate.swift */; };
 		3378438821CA6DB8006865F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3378438721CA6DB8006865F7 /* ViewController.swift */; };
 		3378438B21CA6DB8006865F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3378438921CA6DB8006865F7 /* Main.storyboard */; };
 		3378438D21CA6DBB006865F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3378438C21CA6DBB006865F7 /* Assets.xcassets */; };
 		3378439021CA6DBB006865F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3378438E21CA6DBB006865F7 /* LaunchScreen.storyboard */; };
+		33A6D81121D3A9900039D9BF /* FrendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D81021D3A9900039D9BF /* FrendsTableViewController.swift */; };
+		33A6D81321D3A9EB0039D9BF /* FrendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D81221D3A9EB0039D9BF /* FrendTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		331F848421EB72170081E022 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		331F848621EB88840081E022 /* GroupTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell2.swift; sourceTree = "<group>"; };
+		332738EF21D51E27005DAB06 /* SingleFrendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleFrendCollectionViewCell.swift; sourceTree = "<group>"; };
+		332738F121D51E92005DAB06 /* SingleFrendCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleFrendCollectionViewController.swift; sourceTree = "<group>"; };
+		332738F321D533AF005DAB06 /* SingleFrendViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleFrendViewLayout.swift; sourceTree = "<group>"; };
+		332738F721D58C07005DAB06 /* MyGroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsTableViewController.swift; sourceTree = "<group>"; };
+		332738F921D58CB1005DAB06 /* GroupsAllTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAllTableViewController.swift; sourceTree = "<group>"; };
+		332738FB21D58D3D005DAB06 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		3378438221CA6DB8006865F7 /* 1L_IvanGolub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1L_IvanGolub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3378438521CA6DB8006865F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3378438721CA6DB8006865F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,8 @@
 		3378438C21CA6DBB006865F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3378438F21CA6DBB006865F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3378439121CA6DBB006865F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A6D81021D3A9900039D9BF /* FrendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendsTableViewController.swift; sourceTree = "<group>"; };
+		33A6D81221D3A9EB0039D9BF /* FrendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		332738F621D58BC7005DAB06 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				332738F721D58C07005DAB06 /* MyGroupsTableViewController.swift */,
+				332738F921D58CB1005DAB06 /* GroupsAllTableViewController.swift */,
+				332738FB21D58D3D005DAB06 /* GroupTableViewCell.swift */,
+				331F848621EB88840081E022 /* GroupTableViewCell2.swift */,
+				331F848421EB72170081E022 /* Group.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
 		3378437921CA6DB8006865F7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +86,8 @@
 		3378438421CA6DB8006865F7 /* 1L_IvanGolub */ = {
 			isa = PBXGroup;
 			children = (
+				332738F621D58BC7005DAB06 /* Groups */,
+				33A6D80F21D3A9310039D9BF /* Frends */,
 				3378438521CA6DB8006865F7 /* AppDelegate.swift */,
 				3378438721CA6DB8006865F7 /* ViewController.swift */,
 				3378438921CA6DB8006865F7 /* Main.storyboard */,
@@ -62,6 +96,18 @@
 				3378439121CA6DBB006865F7 /* Info.plist */,
 			);
 			path = 1L_IvanGolub;
+			sourceTree = "<group>";
+		};
+		33A6D80F21D3A9310039D9BF /* Frends */ = {
+			isa = PBXGroup;
+			children = (
+				33A6D81021D3A9900039D9BF /* FrendsTableViewController.swift */,
+				33A6D81221D3A9EB0039D9BF /* FrendTableViewCell.swift */,
+				332738EF21D51E27005DAB06 /* SingleFrendCollectionViewCell.swift */,
+				332738F121D51E92005DAB06 /* SingleFrendCollectionViewController.swift */,
+				332738F321D533AF005DAB06 /* SingleFrendViewLayout.swift */,
+			);
+			path = Frends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331F848521EB72170081E022 /* Group.swift in Sources */,
+				332738FA21D58CB1005DAB06 /* GroupsAllTableViewController.swift in Sources */,
+				332738F421D533AF005DAB06 /* SingleFrendViewLayout.swift in Sources */,
+				332738F021D51E27005DAB06 /* SingleFrendCollectionViewCell.swift in Sources */,
+				33A6D81121D3A9900039D9BF /* FrendsTableViewController.swift in Sources */,
+				332738F821D58C07005DAB06 /* MyGroupsTableViewController.swift in Sources */,
+				331F848721EB88840081E022 /* GroupTableViewCell2.swift in Sources */,
+				332738F221D51E92005DAB06 /* SingleFrendCollectionViewController.swift in Sources */,
+				33A6D81321D3A9EB0039D9BF /* FrendTableViewCell.swift in Sources */,
 				3378438821CA6DB8006865F7 /* ViewController.swift in Sources */,
 				3378438621CA6DB8006865F7 /* AppDelegate.swift in Sources */,
+				332738FC21D58D3D005DAB06 /* GroupTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
